@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{896D0BBB-EC16-4458-91D5-84E010301CF9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HMS</RootNamespace>
+    <AssemblyName>HMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo ICO.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework">
+      <HintPath>D:\Ali\Framework UI\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Beds Management\BedAllotments\AddBedAllotments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beds Management\BedAllotments\AddBedAllotments.Designer.cs">
+      <DependentUpon>AddBedAllotments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beds Management\BedAllotments\BedAllotmentsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beds Management\BedAllotments\BedAllotmentsView.Designer.cs">
+      <DependentUpon>BedAllotmentsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beds Management\BedCategories\AddBedCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beds Management\BedCategories\AddBedCategories.Designer.cs">
+      <DependentUpon>AddBedCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beds Management\BedCategories\BedCategoriesView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beds Management\BedCategories\BedCategoriesView.Designer.cs">
+      <DependentUpon>BedCategoriesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beds Management\Beds\AddBeds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beds Management\Beds\AddBeds.Designer.cs">
+      <DependentUpon>AddBeds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beds Management\Beds\BedsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beds Management\Beds\BedsView.Designer.cs">
+      <DependentUpon>BedsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LabTestCategories\AddLabTestCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabTestCategories\AddLabTestCategory.Designer.cs">
+      <DependentUpon>AddLabTestCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LabTestCategories\LabTestCategoriesView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabTestCategories\LabTestCategoriesView.Designer.cs">
+      <DependentUpon>LabTestCategoriesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LabTest\AddLabTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabTest\AddLabTest.Designer.cs">
+      <DependentUpon>AddLabTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LabTest\LabTestView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabTest\LabTestView.Designer.cs">
+      <DependentUpon>LabTestView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patients\PatientCheckup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patients\PatientCheckup.Designer.cs">
+      <DependentUpon>PatientCheckup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\Accountant\AccountantView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\Accountant\AccountantView.Designer.cs">
+      <DependentUpon>AccountantView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\Accountant\AddAccountant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\Accountant\AddAccountant.Designer.cs">
+      <DependentUpon>AddAccountant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\Doctors\AddDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\Doctors\AddDoctor.Designer.cs">
+      <DependentUpon>AddDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\Doctors\DoctorsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\Doctors\DoctorsView.Designer.cs">
+      <DependentUpon>DoctorsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmbedFont.cs" />
+    <Compile Include="User Management\Laboraties\AddLaboraties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\Laboraties\AddLaboraties.Designer.cs">
+      <DependentUpon>AddLaboraties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\Laboraties\LaboratiesView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\Laboraties\LaboratiesView.Designer.cs">
+      <DependentUpon>LaboratiesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layout.Designer.cs">
+      <DependentUpon>Layout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\AdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\AdminDashboard.Designer.cs">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLogin.Designer.cs">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Medicine Management\MedicineCategories\AddMedicineCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Medicine Management\MedicineCategories\AddMedicineCategories.Designer.cs">
+      <DependentUpon>AddMedicineCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Medicine Management\MedicineCategories\MedicineCategoriesView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Medicine Management\MedicineCategories\MedicineCategoriesView.Designer.cs">
+      <DependentUpon>MedicineCategoriesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Medicine Management\Medicines\AddMedicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Medicine Management\Medicines\AddMedicine.Designer.cs">
+      <DependentUpon>AddMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Medicine Management\Medicines\MedicineView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Medicine Management\Medicines\MedicineView.Designer.cs">
+      <DependentUpon>MedicineView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\Nurses\AddNurse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\Nurses\AddNurse.Designer.cs">
+      <DependentUpon>AddNurse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\Nurses\NursesView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\Nurses\NursesView.Designer.cs">
+      <DependentUpon>NursesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patients\AddPatients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patients\AddPatients.Designer.cs">
+      <DependentUpon>AddPatients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patients\PatientsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patients\PatientsView.Designer.cs">
+      <DependentUpon>PatientsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\Pharmacist\AddPharmacist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\Pharmacist\AddPharmacist.Designer.cs">
+      <DependentUpon>AddPharmacist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\Pharmacist\PharmacistView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\Pharmacist\PharmacistView.Designer.cs">
+      <DependentUpon>PharmacistView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\Receptionists\AddReceptionist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\Receptionists\AddReceptionist.Designer.cs">
+      <DependentUpon>AddReceptionist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\Receptionists\ReceptionistView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\Receptionists\ReceptionistView.Designer.cs">
+      <DependentUpon>ReceptionistView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScreenError.Designer.cs">
+      <DependentUpon>ScreenError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PatientCheckupView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PatientCheckupView.Designer.cs">
+      <DependentUpon>PatientCheckupView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Beds Management\BedAllotments\AddBedAllotments.resx">
+      <DependentUpon>AddBedAllotments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beds Management\BedAllotments\BedAllotmentsView.resx">
+      <DependentUpon>BedAllotmentsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beds Management\BedCategories\AddBedCategories.resx">
+      <DependentUpon>AddBedCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beds Management\BedCategories\BedCategoriesView.resx">
+      <DependentUpon>BedCategoriesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beds Management\Beds\AddBeds.resx">
+      <DependentUpon>AddBeds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beds Management\Beds\BedsView.resx">
+      <DependentUpon>BedsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabTestCategories\AddLabTestCategory.resx">
+      <DependentUpon>AddLabTestCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabTestCategories\LabTestCategoriesView.resx">
+      <DependentUpon>LabTestCategoriesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabTest\AddLabTest.resx">
+      <DependentUpon>AddLabTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabTest\LabTestView.resx">
+      <DependentUpon>LabTestView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patients\PatientCheckup.resx">
+      <DependentUpon>PatientCheckup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\Accountant\AccountantView.resx">
+      <DependentUpon>AccountantView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\Accountant\AddAccountant.resx">
+      <DependentUpon>AddAccountant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\Doctors\AddDoctor.resx">
+      <DependentUpon>AddDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\Doctors\DoctorsView.resx">
+      <DependentUpon>DoctorsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\Laboraties\AddLaboraties.resx">
+      <DependentUpon>AddLaboraties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\Laboraties\LaboratiesView.resx">
+      <DependentUpon>LaboratiesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layout.resx">
+      <DependentUpon>Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\AdminDashboard.resx">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLogin.resx">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medicine Management\MedicineCategories\AddMedicineCategories.resx">
+      <DependentUpon>AddMedicineCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medicine Management\MedicineCategories\MedicineCategoriesView.resx">
+      <DependentUpon>MedicineCategoriesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medicine Management\Medicines\AddMedicine.resx">
+      <DependentUpon>AddMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medicine Management\Medicines\MedicineVIew.resx">
+      <DependentUpon>MedicineView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\Nurses\AddNurse.resx">
+      <DependentUpon>AddNurse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\Nurses\NursesView.resx">
+      <DependentUpon>NursesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patients\AddPatients.resx">
+      <DependentUpon>AddPatients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patients\PatientsView.resx">
+      <DependentUpon>PatientsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\Pharmacist\AddPharmacist.resx">
+      <DependentUpon>AddPharmacist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\Pharmacist\PharmacistView.resx">
+      <DependentUpon>PharmacistView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\Receptionists\AddReceptionist.resx">
+      <DependentUpon>AddReceptionist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\Receptionists\ReceptionistView.resx">
+      <DependentUpon>ReceptionistView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScreenError.resx">
+      <DependentUpon>ScreenError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fonts\SourceSansPro-Regular.otf" />
+    <EmbeddedResource Include="UserControls\PatientCheckupView.resx">
+      <DependentUpon>PatientCheckupView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Animator\Animator.csproj">
+      <Project>{ce6fad6b-bf48-4817-8c60-eaf1d5723c0a}</Project>
+      <Name>Animator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\UIControls.csproj">
+      <Project>{61efb9ed-3ff6-4c0d-9b38-7834a29d80ec}</Project>
+      <Name>UIControls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="fonts\Lato-Regular.ttf" />
+    <None Include="Resources\profile_without_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gauge-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nurse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Patient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User-WF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Finance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medicine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Payment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Expense.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medicine1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medicine_Cat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User-Profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Facebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Twitter-Bird.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Web.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lab1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patientTest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doctor_White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nurse_White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\First-Aid-Kit-White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lab_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Accountant_White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Patient-White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pills_White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bed_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\screen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add-New.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add-New_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add-New1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search-Find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add-New2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Garbage-Closed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right tick - 01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Garbage blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle Block blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Details blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo ICO.ico" />
+    <None Include="Resources\Location -01.png" />
+    <None Include="Resources\Location -031.png" />
+    <None Include="Resources\Location -03.png" />
+    <None Include="Resources\Phone.png" />
+    <None Include="Resources\logo PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

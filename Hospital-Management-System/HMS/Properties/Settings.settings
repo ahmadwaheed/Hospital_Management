@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="HMS.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DESIGN_TIME_SCREEN_WIDTH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1280</Value>
+    </Setting>
+    <Setting Name="DESIGN_TIME_SCREEN_HEIGHT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">960</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

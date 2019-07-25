@@ -1,0 +1,110 @@
+E:\HMS\HMS\bin\Debug\HMS.exe.config
+E:\HMS\HMS\bin\Debug\HMS.exe
+E:\HMS\HMS\bin\Debug\HMS.pdb
+E:\HMS\HMS\obj\Debug\HMS.csprojResolveAssemblyReference.cache
+E:\HMS\HMS\obj\Debug\HMS.formLogin.resources
+E:\HMS\HMS\obj\Debug\HMS.Properties.Resources.resources
+E:\HMS\HMS\obj\Debug\HMS.csproj.GenerateResource.Cache
+E:\HMS\HMS\obj\Debug\HMS.exe
+E:\HMS\HMS\obj\Debug\HMS.pdb
+E:\HMS\HMS\bin\Debug\Controls.dll
+E:\HMS\HMS\bin\Debug\Controls.pdb
+E:\HMS\HMS\bin\Debug\Animator.dll
+E:\HMS\HMS\bin\Debug\Animator.pdb
+E:\HMS\HMS\obj\Debug\HMS.Dashboard.resources
+E:\HMS\HMS\obj\Debug\HMS.ScreenError.resources
+E:\HMS\HMS\obj\Debug\HMS.Layout.resources
+E:\HMS\HMS\obj\Debug\HMS.Doctors.resources
+E:\HMS\HMS\bin\Debug\MetroFramework.dll
+E:\HMS Project\HMS\HMS\bin\Debug\HMS.exe.config
+E:\HMS Project\HMS\HMS\bin\Debug\HMS.exe
+E:\HMS Project\HMS\HMS\bin\Debug\HMS.pdb
+E:\HMS Project\HMS\HMS\bin\Debug\Animator.dll
+E:\HMS Project\HMS\HMS\bin\Debug\MetroFramework.dll
+E:\HMS Project\HMS\HMS\bin\Debug\Animator.pdb
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Layout.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.formLogin.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Properties.Resources.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.ScreenError.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.csproj.GenerateResource.cache
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.exe
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.pdb
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.csprojResolveAssemblyReference.cache
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Doctors.AddDoctor.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Doctors.DoctorsView.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Patients.PatientsView.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Patients.AddPatients.resources
+E:\HMS Project\HMS\HMS\bin\Debug\UIControls.dll
+E:\HMS Project\HMS\HMS\bin\Debug\UIControls.pdb
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Nurses.NursesView.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Nurses.AddNurse.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Laboraties.LaboratiesView.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Laboraties.AddLaboraties.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Dashboard.AdminDashboard.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Pharmacist.AddPharmacist.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Pharmacist.PharmacistView.resources
+D:\Tabish (C#)\HMS\HMS\bin\Debug\HMS.exe.config
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.exe
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.pdb
+D:\Tabish (C#)\HMS\HMS\bin\Debug\HMS.exe
+D:\Tabish (C#)\HMS\HMS\bin\Debug\HMS.pdb
+D:\Tabish (C#)\HMS\HMS\bin\Debug\Animator.dll
+D:\Tabish (C#)\HMS\HMS\bin\Debug\UIControls.dll
+D:\Tabish (C#)\HMS\HMS\bin\Debug\Animator.pdb
+D:\Tabish (C#)\HMS\HMS\bin\Debug\UIControls.pdb
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.csprojResolveAssemblyReference.cache
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Doctors.AddDoctor.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Doctors.DoctorsView.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Laboraties.AddLaboraties.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Laboraties.LaboratiesView.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Layout.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Dashboard.AdminDashboard.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.formLogin.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Nurses.AddNurse.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Nurses.NursesView.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Patients.AddPatients.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Patients.PatientsView.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Pharmacist.AddPharmacist.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Pharmacist.PharmacistView.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Properties.Resources.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.ScreenError.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.csproj.GenerateResource.Cache
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Accountant.AccountantView.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Accountant.AddAccountant.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Medicines.AddMedicine.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Medicines.MedicineView.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Accountant.AccountantView.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Accountant.AddAccountant.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.MedicineCategories.AddMedicineCategories.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.MedicineCategories.MedicineCategoriesView.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Medicines.AddMedicine.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Medicines.MedicineView.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Receptionists.AddReceptionist.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Receptionists.ReceptionistView.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.BedAllotments.BedAllotmentsView.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.BedCategories.AddBedCategories.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.BedCategories.BedCategoriesView.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Beds.AddBeds.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Beds.BedsView.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.BedAllotments.BedAllotmentsView.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.BedCategories.AddBedCategories.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.BedCategories.BedCategoriesView.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Beds.AddBeds.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Beds.BedsView.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.MedicineCategories.AddMedicineCategories.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.MedicineCategories.MedicineCategoriesView.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Receptionists.AddReceptionist.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Receptionists.ReceptionistView.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.BedAllotments.AddBedAllotments.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.LabTest.LabTestView.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.LabTest.AddLabTest.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.LabTestCategories.AddLabTestCategory.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.LabTestCategories.LabTestCategoriesView.resources
+D:\Tabish (C#)\HMS\HMS\obj\Debug\HMS.Patients.PatientCheckup.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.BedAllotments.AddBedAllotments.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.LabTestCategories.AddLabTestCategory.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.LabTestCategories.LabTestCategoriesView.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.LabTest.AddLabTest.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.LabTest.LabTestView.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.Patients.PatientCheckup.resources
+E:\HMS Project\HMS\HMS\obj\Debug\HMS.UserControls.PatientCheckupView.resources
